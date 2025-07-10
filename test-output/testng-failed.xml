@@ -7,7 +7,7 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyLoginWithValidCredentials" invocation-numbers="0 1"/>
+          <include name="verifyLoginWithValidCredentials" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.ui.tests.LoginTest -->
     </classes>
