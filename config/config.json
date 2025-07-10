@@ -1,0 +1,10 @@
+{
+  "environments": {
+    "QA": {
+      "URL": "http://www.automationpractice.pl"
+    },
+    "STAG": {
+      "URL": "http://www.automationpractice.pl"
+    }
+  }
+}
