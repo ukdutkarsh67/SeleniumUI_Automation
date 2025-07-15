@@ -1,6 +1,7 @@
 package com.ui.tests;
 
 import static com.constants.Browser.CHROME;
+
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.AfterMethod;
@@ -24,6 +25,13 @@ public class LoginTest {
 		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(),
 				"Utkarsh Dwivedi");
 	}
+	
+	@Test(dataProviderClass=com.ui.dataprovider.LoginDataProvider.class,dataProvider="LoginDataProviderByExcelFile")
+	public void verifyLoginWithValidCredentialsByCSV(User user) {
+		assertEquals(homePage.goToLoginPage().doLoginWith(user.getEmail(), user.getPassword()).getUserName(),
+				"Utkarsh Dwivedi");
+	}
+
 
 
 	@AfterMethod

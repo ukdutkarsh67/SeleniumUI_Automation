@@ -5,9 +5,9 @@
     <classes>
       <class name="com.ui.tests.LoginTest">
         <methods>
+          <include name="verifyLoginWithValidCredentialsByCSV" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyLoginWithValidCredentials" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.ui.tests.LoginTest -->
     </classes>

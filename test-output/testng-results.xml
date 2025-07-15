@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-10T18:31:04 IST" name="Default suite" finished-at="2025-07-10T18:31:25 IST" duration-ms="21203">
+  <suite started-at="2025-07-15T12:23:54 IST" name="Default suite" finished-at="2025-07-15T12:24:55 IST" duration-ms="61490">
     <groups>
     </groups>
-    <test started-at="2025-07-10T18:31:04 IST" name="Default test" finished-at="2025-07-10T18:31:25 IST" duration-ms="21203">
+    <test started-at="2025-07-15T12:23:54 IST" name="Default test" finished-at="2025-07-15T12:24:55 IST" duration-ms="61490">
       <class name="com.ui.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@dd8ba08]" started-at="2025-07-10T18:31:04 IST" name="setup" finished-at="2025-07-10T18:31:12 IST" duration-ms="7890" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@6adbc9d]" started-at="2025-07-15T12:23:55 IST" name="setup" finished-at="2025-07-15T12:24:21 IST" duration-ms="26263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@dd8ba08]" started-at="2025-07-10T18:31:12 IST" name="verifyLoginWithValidCredentials" data-provider="LoginDataProvider" finished-at="2025-07-10T18:31:14 IST" duration-ms="2049" status="FAIL">
+        <test-method signature="verifyLoginWithValidCredentialsByCSV(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@6adbc9d]" started-at="2025-07-15T12:24:21 IST" name="verifyLoginWithValidCredentialsByCSV" data-provider="LoginDataProviderByExcelFile" finished-at="2025-07-15T12:24:23 IST" duration-ms="2252" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.ui.pojo.User@51850751]]>
+                <![CDATA[com.ui.pojo.User@49601f82]]>
               </value>
             </param>
           </params>
@@ -27,9 +27,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b5a57ef8908ac333232b55e88129c1d, findElement {value=//a[@title='View my customer account']//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.100, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\UTKARS~1.DWI\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60355/devtoo..., se:cdpVersion: 138.0.7204.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b5a57ef8908ac333232b55e88129c1d]]>
+Command: [fdec249cafbc689c7586548bcbd2537e, findElement {value=//a[@title='View my customer account']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.100, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\UTKARS~1.DWI\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61757/devtoo..., se:cdpVersion: 138.0.7204.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdec249cafbc689c7586548bcbd2537e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']//span"}
@@ -38,9 +38,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b5a57ef8908ac333232b55e88129c1d, findElement {value=//a[@title='View my customer account']//span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.100, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\UTKARS~1.DWI\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60355}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60355/devtoo..., se:cdpVersion: 138.0.7204.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5b5a57ef8908ac333232b55e88129c1d
+Command: [fdec249cafbc689c7586548bcbd2537e, findElement {value=//a[@title='View my customer account']//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.100, chrome: {chromedriverVersion: 138.0.7204.94 (545025748884..., userDataDir: C:\Users\UTKARS~1.DWI\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61757}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61757/devtoo..., se:cdpVersion: 138.0.7204.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fdec249cafbc689c7586548bcbd2537e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -57,7 +57,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
 at com.utility.BrowserUtility.getVisibleText(BrowserUtility.java:59)
 at com.ui.pages.MyAccountPage.getUserName(MyAccountPage.java:22)
-at com.ui.tests.LoginTest.verifyLoginWithValidCredentials(LoginTest.java:24)
+at com.ui.tests.LoginTest.verifyLoginWithValidCredentialsByCSV(LoginTest.java:31)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -89,27 +89,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@dd8ba08]" started-at="2025-07-10T18:31:14 IST" name="tearDown" finished-at="2025-07-10T18:31:15 IST" duration-ms="1092" status="PASS">
+        </test-method> <!-- verifyLoginWithValidCredentialsByCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@6adbc9d]" started-at="2025-07-15T12:24:23 IST" name="tearDown" finished-at="2025-07-15T12:24:25 IST" duration-ms="1154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@dd8ba08]" started-at="2025-07-10T18:31:15 IST" name="setup" finished-at="2025-07-10T18:31:22 IST" duration-ms="6197" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@6adbc9d]" started-at="2025-07-15T12:24:25 IST" name="setup" finished-at="2025-07-15T12:24:51 IST" duration-ms="26214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@dd8ba08]" started-at="2025-07-10T18:31:22 IST" name="verifyLoginWithValidCredentials" data-provider="LoginDataProvider" finished-at="2025-07-10T18:31:25 IST" duration-ms="3150" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentialsByCSV(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@6adbc9d]" started-at="2025-07-15T12:24:51 IST" name="verifyLoginWithValidCredentialsByCSV" data-provider="LoginDataProviderByExcelFile" finished-at="2025-07-15T12:24:54 IST" duration-ms="3248" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.ui.pojo.User@48c40605]]>
+                <![CDATA[com.ui.pojo.User@453d496b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@dd8ba08]" started-at="2025-07-10T18:31:25 IST" name="tearDown" finished-at="2025-07-10T18:31:25 IST" duration-ms="596" status="PASS">
+        </test-method> <!-- verifyLoginWithValidCredentialsByCSV -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@6adbc9d]" started-at="2025-07-15T12:24:54 IST" name="tearDown" finished-at="2025-07-15T12:24:55 IST" duration-ms="918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
